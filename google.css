@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+#header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+#header li {
+    float: right;
+    font-size: 13px;
+}
+
+#header li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    text-decoration: underline;
+}
+
+#signin {
+    display: block;
+    background-color: #608aff;
+    float: right;
+}
+
+#header #signin a {
+    font-size: 13px;
+    font-weight:bold;
+    color: white;
+}
+
+#center {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+#center .button {
+    color: rgba(0, 0, 0, 0.62);
+    margin: auto;
+    font-weight:bold;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#center #searchbar input {
+    margin: auto;
+    width: 500px;
+    height: 35px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.18);
+    font-size:13px;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline;
+}
+
+#l_foot li {
+    float: left;
+    margin-top: 13px;
+}
+
+#l_foot li a {
+    color: rgba(0, 0, 0, 0.62);
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#l_foot li a:hover {
+    text-decoration: underline;
+}
+
+#r_foot li {
+    float: right;
+    margin-top: 13px;
+}
+
+#r_foot li a {
+    color: rgba(0, 0, 0, 0.62);
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#r_foot li a:hover {
+    text-decoration: underline;
+}
